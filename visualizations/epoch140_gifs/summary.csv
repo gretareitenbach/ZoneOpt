@@ -1,7 +1,0 @@
-seq_id,split,entry_type,shot_within_horizon,rmse_xy,plot_path,gif_path,checkpoint_epoch
-501,test,Carried,false,12.197175887987965,visualizations/epoch140_gifs/seq_0501_comparison.png,visualizations/epoch140_gifs/seq_0501_comparison.gif,140
-770,test,Carried,true,12.957492623811607,visualizations/epoch140_gifs/seq_0770_comparison.png,visualizations/epoch140_gifs/seq_0770_comparison.gif,140
-229,test,Dumped,false,18.27085810272498,visualizations/epoch140_gifs/seq_0229_comparison.png,visualizations/epoch140_gifs/seq_0229_comparison.gif,140
-693,test,Carried,true,18.925626418522793,visualizations/epoch140_gifs/seq_0693_comparison.png,visualizations/epoch140_gifs/seq_0693_comparison.gif,140
-496,test,Played,false,57.87769757492636,visualizations/epoch140_gifs/seq_0496_comparison.png,visualizations/epoch140_gifs/seq_0496_comparison.gif,140
-1064,test,Carried,false,34.31755576735522,visualizations/epoch140_gifs/seq_1064_comparison.png,visualizations/epoch140_gifs/seq_1064_comparison.gif,140

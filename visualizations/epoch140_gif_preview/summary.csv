@@ -1,2 +1,0 @@
-seq_id,split,entry_type,shot_within_horizon,rmse_xy,plot_path,gif_path,checkpoint_epoch
-501,test,Carried,false,12.197175887987965,visualizations/epoch140_gif_preview/seq_0501_comparison.png,visualizations/epoch140_gif_preview/seq_0501_comparison.gif,140

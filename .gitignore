@@ -1,2 +1,5 @@
 models/
+data/
+processed/
+visualizations/
 *.toml

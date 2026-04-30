@@ -1,0 +1,58 @@
+[2026-04-18 09:35:19] Starting ZoneOpt Neural ODE training and evaluation...
+[2026-04-18 09:35:19] Job ID: 12160525
+[2026-04-18 09:35:19] Host: node1601
+[2026-04-18 09:35:19] Working directory: /home/gretar/6_7320
+[2026-04-18 09:35:19] CPU request: 8
+[2026-04-18 09:35:19] Memory request: 65536
+[2026-04-18 09:35:19] Start time: Sat Apr 18 09:35:19 EDT 2026
+[2026-04-18 09:35:19] Sourcing ~/.bashrc
+[2026-04-18 09:35:19] JULIA_NUM_THREADS=8
+[2026-04-18 09:35:19] ZONEOPT_EPOCHS=100
+[2026-04-18 09:35:19] Using Julia at: /home/gretar/.juliaup/bin/julia
+[2026-04-18 09:35:19] Launching Julia pipeline
+================================================================================
+STEP 1: Validating Preprocessing Output
+================================================================================
+[2026-04-18 09:35:22] Loading processed CSV files
+[2026-04-18 09:35:26] CSV load complete
+
+✅ Successfully loaded CSV files
+   Sequences: 1296
+   Long-form rows: 194179
+   Long-form columns: 49
+   Index columns: 11
+[2026-04-18 09:35:26] Validating required columns
+
+✅ All required columns present in long-form data
+[2026-04-18 09:35:26] Computing completeness metrics
+
+📊 Data completeness:
+   Puck X: 187520 / 194179 (97.0%)
+   Puck Y: 187520 / 194179 (97.0%)
+   Puck Z: 187520 / 194179 (97.0%)
+
+🎯 Sequences with shots: 247 / 1296
+
+
+
+================================================================================
+STEP 2: Running Training Pipeline
+================================================================================
+[2026-04-18 09:35:26] Including run_training.jl
+[2026-04-18 09:35:27] Activating Julia project
+[2026-04-18 09:35:27] Instantiating environment
+[2026-04-18 09:47:09] Epoch 1/100 | train_loss=8653.941978 | train_traj=8653.10958 | train_strategy=4.161989 | train_rmse=39.3471 | val_loss=20845.621278 | val_strategy=3.048295 | val_rmse=50.250586
+[2026-04-18 09:47:10] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_001.jls
+[2026-04-18 09:47:10] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_001_best.jls
+[2026-04-18 09:57:12] Epoch 2/100 | train_loss=8014.956016 | train_traj=8014.161921 | train_strategy=3.970478 | train_rmse=37.576872 | val_loss=20226.100783 | val_strategy=3.273382 | val_rmse=48.053899
+[2026-04-18 09:57:12] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_002.jls
+[2026-04-18 09:57:12] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_002_best.jls
+[2026-04-18 10:07:12] Epoch 3/100 | train_loss=7675.594525 | train_traj=7674.854674 | train_strategy=3.699254 | train_rmse=35.90556 | val_loss=19869.130347 | val_strategy=2.971917 | val_rmse=46.670854
+[2026-04-18 10:07:12] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_003.jls
+[2026-04-18 10:07:12] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_003_best.jls
+[2026-04-18 10:17:16] Epoch 4/100 | train_loss=7420.041999 | train_traj=7419.39155 | train_strategy=3.252245 | train_rmse=34.657836 | val_loss=19527.36644 | val_strategy=2.876738 | val_rmse=45.443776
+[2026-04-18 10:17:16] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_004.jls
+[2026-04-18 10:17:16] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_004_best.jls
+[2026-04-18 10:27:17] Epoch 5/100 | train_loss=7183.921125 | train_traj=7183.348948 | train_strategy=2.860884 | train_rmse=33.462546 | val_loss=19242.912551 | val_strategy=2.74352 | val_rmse=44.626814
+[2026-04-18 10:27:17] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_005.jls
+[2026-04-18 10:27:17] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_005_best.jls

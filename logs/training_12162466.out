@@ -1,0 +1,255 @@
+[2026-04-18 10:32:19] Starting ZoneOpt Neural ODE training and evaluation...
+[2026-04-18 10:32:19] Job ID: 12162466
+[2026-04-18 10:32:19] Host: node1619
+[2026-04-18 10:32:19] Working directory: /home/gretar/6_7320
+[2026-04-18 10:32:19] CPU request: 8
+[2026-04-18 10:32:19] Memory request: 65536
+[2026-04-18 10:32:19] Start time: Sat Apr 18 10:32:19 EDT 2026
+[2026-04-18 10:32:19] Sourcing ~/.bashrc
+[2026-04-18 10:32:19] JULIA_NUM_THREADS=8
+[2026-04-18 10:32:19] ZONEOPT_EPOCHS=100
+[2026-04-18 10:32:19] Using Julia at: /home/gretar/.juliaup/bin/julia
+[2026-04-18 10:32:19] Launching Julia pipeline
+================================================================================
+STEP 1: Validating Preprocessing Output
+================================================================================
+[2026-04-18 10:32:23] Loading processed CSV files
+[2026-04-18 10:32:26] CSV load complete
+
+✅ Successfully loaded CSV files
+   Sequences: 1296
+   Long-form rows: 194179
+   Long-form columns: 49
+   Index columns: 11
+[2026-04-18 10:32:26] Validating required columns
+
+✅ All required columns present in long-form data
+[2026-04-18 10:32:26] Computing completeness metrics
+
+📊 Data completeness:
+   Puck X: 187520 / 194179 (97.0%)
+   Puck Y: 187520 / 194179 (97.0%)
+   Puck Z: 187520 / 194179 (97.0%)
+
+🎯 Sequences with shots: 247 / 1296
+
+
+
+================================================================================
+STEP 2: Running Training Pipeline
+================================================================================
+[2026-04-18 10:32:26] Including run_training.jl
+[2026-04-18 10:32:27] Activating Julia project
+[2026-04-18 10:32:28] Instantiating environment
+[2026-04-18 10:32:50] Environment ready
+[2026-04-18 10:33:01] Training epochs configured: 100 (override with ZONEOPT_EPOCHS)
+[2026-04-18 10:33:01] Checkpoint directory: /orcd/home/002/gretar/6_7320/models (override with ZONEOPT_MODEL_DIR)
+[2026-04-18 10:33:01] Starting training pipeline...
+[2026-04-18 10:44:32] Epoch 1/100 | train_loss=8575.845723 | train_traj=8575.051828 | train_strategy=3.969473 | train_rmse=38.956506 | val_loss=20894.827516 | val_strategy=3.187786 | val_rmse=50.146022
+[2026-04-18 10:44:33] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_001.jls
+[2026-04-18 10:44:33] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_001_best.jls
+[2026-04-18 10:54:49] Epoch 2/100 | train_loss=8004.735477 | train_traj=8003.989289 | train_strategy=3.73094 | train_rmse=37.098608 | val_loss=20292.901431 | val_strategy=3.271924 | val_rmse=47.890665
+[2026-04-18 10:54:49] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_002.jls
+[2026-04-18 10:54:49] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_002_best.jls
+[2026-04-18 11:05:09] Epoch 3/100 | train_loss=7679.081593 | train_traj=7678.39454 | train_strategy=3.435266 | train_rmse=35.264897 | val_loss=19928.394476 | val_strategy=2.937299 | val_rmse=46.205456
+[2026-04-18 11:05:09] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_003.jls
+[2026-04-18 11:05:09] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_003_best.jls
+[2026-04-18 11:15:36] Epoch 4/100 | train_loss=7425.205271 | train_traj=7424.642873 | train_strategy=2.811989 | train_rmse=34.003402 | val_loss=19583.410438 | val_strategy=2.646038 | val_rmse=44.859874
+[2026-04-18 11:15:36] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_004.jls
+[2026-04-18 11:15:36] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_004_best.jls
+[2026-04-18 11:25:57] Epoch 5/100 | train_loss=7199.648587 | train_traj=7199.15312 | train_strategy=2.477336 | train_rmse=32.887592 | val_loss=19296.227813 | val_strategy=2.522481 | val_rmse=44.009069
+[2026-04-18 11:25:57] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_005.jls
+[2026-04-18 11:25:57] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_005_best.jls
+[2026-04-18 11:36:14] Epoch 6/100 | train_loss=7028.745789 | train_traj=7028.29156 | train_strategy=2.271141 | train_rmse=32.220422 | val_loss=19049.475521 | val_strategy=2.566175 | val_rmse=43.257194
+[2026-04-18 11:36:14] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_006.jls
+[2026-04-18 11:36:14] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_006_best.jls
+[2026-04-18 11:46:37] Epoch 7/100 | train_loss=6900.447173 | train_traj=6900.030361 | train_strategy=2.084061 | train_rmse=31.684019 | val_loss=18840.52335 | val_strategy=2.530768 | val_rmse=42.713906
+[2026-04-18 11:46:37] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_007.jls
+[2026-04-18 11:46:37] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_007_best.jls
+[2026-04-18 11:56:58] Epoch 8/100 | train_loss=6805.67483 | train_traj=6805.259978 | train_strategy=2.074259 | train_rmse=31.448666 | val_loss=18639.430245 | val_strategy=2.601471 | val_rmse=42.401876
+[2026-04-18 11:56:58] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_008.jls
+[2026-04-18 11:56:58] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_008_best.jls
+[2026-04-18 12:07:14] Epoch 9/100 | train_loss=6645.792018 | train_traj=6645.38983 | train_strategy=2.010941 | train_rmse=30.862382 | val_loss=18470.866431 | val_strategy=2.401074 | val_rmse=41.945693
+[2026-04-18 12:07:14] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_009.jls
+[2026-04-18 12:07:14] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_009_best.jls
+[2026-04-18 12:17:27] Epoch 10/100 | train_loss=6548.202011 | train_traj=6547.812561 | train_strategy=1.947252 | train_rmse=30.653586 | val_loss=18311.852642 | val_strategy=2.428413 | val_rmse=41.893436
+[2026-04-18 12:17:27] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_010.jls
+[2026-04-18 12:17:27] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_010_best.jls
+[2026-04-18 12:27:41] Epoch 11/100 | train_loss=6468.921697 | train_traj=6468.526725 | train_strategy=1.974862 | train_rmse=30.343457 | val_loss=18159.899247 | val_strategy=2.451488 | val_rmse=41.63123
+[2026-04-18 12:27:41] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_011.jls
+[2026-04-18 12:27:41] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_011_best.jls
+[2026-04-18 12:37:53] Epoch 12/100 | train_loss=6366.672921 | train_traj=6366.280497 | train_strategy=1.96212 | train_rmse=29.961698 | val_loss=17996.630138 | val_strategy=2.441708 | val_rmse=41.099197
+[2026-04-18 12:37:53] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_012.jls
+[2026-04-18 12:37:53] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_012_best.jls
+[2026-04-18 12:48:13] Epoch 13/100 | train_loss=6275.88178 | train_traj=6275.500391 | train_strategy=1.906942 | train_rmse=29.779966 | val_loss=17859.553025 | val_strategy=2.380421 | val_rmse=41.004994
+[2026-04-18 12:48:13] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_013.jls
+[2026-04-18 12:48:13] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_013_best.jls
+[2026-04-18 12:58:32] Epoch 14/100 | train_loss=6186.207315 | train_traj=6185.829363 | train_strategy=1.889756 | train_rmse=29.492592 | val_loss=17729.267701 | val_strategy=2.384162 | val_rmse=40.784069
+[2026-04-18 12:58:32] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_014.jls
+[2026-04-18 12:58:32] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_014_best.jls
+[2026-04-18 13:08:53] Epoch 15/100 | train_loss=6107.455235 | train_traj=6107.086501 | train_strategy=1.843667 | train_rmse=29.198094 | val_loss=17582.975039 | val_strategy=2.363377 | val_rmse=40.35048
+[2026-04-18 13:08:53] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_015.jls
+[2026-04-18 13:08:53] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_015_best.jls
+[2026-04-18 13:19:17] Epoch 16/100 | train_loss=6026.3743 | train_traj=6026.001232 | train_strategy=1.86534 | train_rmse=28.972842 | val_loss=17439.28219 | val_strategy=2.306986 | val_rmse=40.103336
+[2026-04-18 13:19:17] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_016.jls
+[2026-04-18 13:19:17] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_016_best.jls
+[2026-04-18 13:29:39] Epoch 17/100 | train_loss=5940.81024 | train_traj=5940.45586 | train_strategy=1.771897 | train_rmse=28.930446 | val_loss=17314.794563 | val_strategy=2.413504 | val_rmse=40.109062
+[2026-04-18 13:29:39] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_017.jls
+[2026-04-18 13:29:39] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_017_best.jls
+[2026-04-18 13:40:02] Epoch 18/100 | train_loss=5871.140453 | train_traj=5870.780157 | train_strategy=1.801481 | train_rmse=28.337415 | val_loss=17179.638089 | val_strategy=2.243007 | val_rmse=39.321126
+[2026-04-18 13:40:02] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_018.jls
+[2026-04-18 13:40:02] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_018_best.jls
+[2026-04-18 13:50:25] Epoch 19/100 | train_loss=5786.14492 | train_traj=5785.797809 | train_strategy=1.735553 | train_rmse=27.869193 | val_loss=17075.857514 | val_strategy=2.106763 | val_rmse=39.587183
+[2026-04-18 13:50:25] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_019.jls
+[2026-04-18 13:50:25] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_019_best.jls
+[2026-04-18 14:00:49] Epoch 20/100 | train_loss=5712.678472 | train_traj=5712.318687 | train_strategy=1.798928 | train_rmse=27.50943 | val_loss=16932.735152 | val_strategy=2.085796 | val_rmse=38.935578
+[2026-04-18 14:00:49] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_020.jls
+[2026-04-18 14:00:49] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_020_best.jls
+[2026-04-18 14:11:18] Epoch 21/100 | train_loss=5651.623675 | train_traj=5651.282301 | train_strategy=1.706871 | train_rmse=27.077949 | val_loss=16807.74403 | val_strategy=1.971796 | val_rmse=38.511889
+[2026-04-18 14:11:18] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_021.jls
+[2026-04-18 14:11:18] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_021_best.jls
+[2026-04-18 14:21:46] Epoch 22/100 | train_loss=5563.422115 | train_traj=5563.079564 | train_strategy=1.712752 | train_rmse=26.66791 | val_loss=16686.978719 | val_strategy=2.055933 | val_rmse=38.270546
+[2026-04-18 14:21:46] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_022.jls
+[2026-04-18 14:21:46] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_022_best.jls
+[2026-04-18 14:32:13] Epoch 23/100 | train_loss=5726.098514 | train_traj=5725.752899 | train_strategy=1.728071 | train_rmse=26.477386 | val_loss=16606.212587 | val_strategy=1.982082 | val_rmse=38.029715
+[2026-04-18 14:32:13] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_023.jls
+[2026-04-18 14:32:13] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_023_best.jls
+[2026-04-18 14:42:43] Epoch 24/100 | train_loss=5484.790269 | train_traj=5484.455521 | train_strategy=1.673741 | train_rmse=26.271943 | val_loss=16458.103982 | val_strategy=1.96016 | val_rmse=37.71071
+[2026-04-18 14:42:43] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_024.jls
+[2026-04-18 14:42:43] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_024_best.jls
+[2026-04-18 14:53:10] Epoch 25/100 | train_loss=5391.629041 | train_traj=5391.286601 | train_strategy=1.7122 | train_rmse=25.939169 | val_loss=16372.385856 | val_strategy=1.862522 | val_rmse=37.759143
+[2026-04-18 14:53:10] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_025.jls
+[2026-04-18 14:53:10] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_025_best.jls
+[2026-04-18 15:03:28] Epoch 26/100 | train_loss=5326.813466 | train_traj=5326.475759 | train_strategy=1.688533 | train_rmse=25.697236 | val_loss=16281.055918 | val_strategy=1.80443 | val_rmse=37.544578
+[2026-04-18 15:03:28] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_026.jls
+[2026-04-18 15:03:28] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_026_best.jls
+[2026-04-18 15:13:42] Epoch 27/100 | train_loss=5234.577274 | train_traj=5234.239637 | train_strategy=1.688183 | train_rmse=25.353471 | val_loss=16145.079944 | val_strategy=1.795412 | val_rmse=37.061089
+[2026-04-18 15:13:42] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_027.jls
+[2026-04-18 15:13:42] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_027_best.jls
+[2026-04-18 15:23:57] Epoch 28/100 | train_loss=5182.418004 | train_traj=5182.087718 | train_strategy=1.651432 | train_rmse=25.395516 | val_loss=16026.450984 | val_strategy=1.865647 | val_rmse=36.84849
+[2026-04-18 15:23:57] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_028.jls
+[2026-04-18 15:23:57] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_028_best.jls
+[2026-04-18 15:34:19] Epoch 29/100 | train_loss=5118.687068 | train_traj=5118.349539 | train_strategy=1.687643 | train_rmse=24.855 | val_loss=15932.115937 | val_strategy=1.765861 | val_rmse=36.660826
+[2026-04-18 15:34:19] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_029.jls
+[2026-04-18 15:34:19] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_029_best.jls
+[2026-04-18 15:44:34] Epoch 30/100 | train_loss=5063.148163 | train_traj=5062.812638 | train_strategy=1.677626 | train_rmse=24.560555 | val_loss=15862.920359 | val_strategy=1.713827 | val_rmse=36.589308
+[2026-04-18 15:44:34] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_030.jls
+[2026-04-18 15:44:34] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_030_best.jls
+[2026-04-18 15:54:41] Epoch 31/100 | train_loss=5001.86048 | train_traj=5001.53055 | train_strategy=1.649651 | train_rmse=24.591035 | val_loss=15784.706763 | val_strategy=1.720308 | val_rmse=36.843935
+[2026-04-18 15:54:41] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_031.jls
+[2026-04-18 15:54:41] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_031_best.jls
+[2026-04-18 16:04:48] Epoch 32/100 | train_loss=4958.672818 | train_traj=4958.341725 | train_strategy=1.655463 | train_rmse=24.177418 | val_loss=15679.628624 | val_strategy=1.716128 | val_rmse=36.234281
+[2026-04-18 16:04:48] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_032.jls
+[2026-04-18 16:04:48] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_032_best.jls
+[2026-04-18 16:14:54] Epoch 33/100 | train_loss=4902.187618 | train_traj=4901.849875 | train_strategy=1.688715 | train_rmse=23.998935 | val_loss=15581.237509 | val_strategy=1.728315 | val_rmse=36.022993
+[2026-04-18 16:14:54] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_033.jls
+[2026-04-18 16:14:54] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_033_best.jls
+[2026-04-18 16:25:06] Epoch 34/100 | train_loss=4855.330466 | train_traj=4854.997568 | train_strategy=1.664492 | train_rmse=24.043641 | val_loss=15506.450491 | val_strategy=1.698147 | val_rmse=36.308955
+[2026-04-18 16:25:06] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_034.jls
+[2026-04-18 16:25:06] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_034_best.jls
+[2026-04-18 16:35:17] Epoch 35/100 | train_loss=4804.946667 | train_traj=4804.616542 | train_strategy=1.650627 | train_rmse=23.603609 | val_loss=15441.077723 | val_strategy=1.710904 | val_rmse=36.216859
+[2026-04-18 16:35:17] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_035.jls
+[2026-04-18 16:35:17] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_035_best.jls
+[2026-04-18 16:45:30] Epoch 36/100 | train_loss=4751.224056 | train_traj=4750.896571 | train_strategy=1.637425 | train_rmse=23.453236 | val_loss=15339.787292 | val_strategy=1.663762 | val_rmse=35.858655
+[2026-04-18 16:45:30] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_036.jls
+[2026-04-18 16:45:30] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_036_best.jls
+[2026-04-18 16:55:42] Epoch 37/100 | train_loss=4701.083974 | train_traj=4700.748913 | train_strategy=1.675301 | train_rmse=23.513328 | val_loss=15299.74897 | val_strategy=1.717826 | val_rmse=36.455259
+[2026-04-18 16:55:42] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_037.jls
+[2026-04-18 16:55:42] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_037_best.jls
+[2026-04-18 17:05:56] Epoch 38/100 | train_loss=4658.928683 | train_traj=4658.604058 | train_strategy=1.623123 | train_rmse=23.648238 | val_loss=15176.779241 | val_strategy=1.711747 | val_rmse=35.560556
+[2026-04-18 17:05:57] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_038.jls
+[2026-04-18 17:05:57] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_038_best.jls
+[2026-04-18 17:16:12] Epoch 39/100 | train_loss=4614.567617 | train_traj=4614.240364 | train_strategy=1.636267 | train_rmse=23.180825 | val_loss=15081.195504 | val_strategy=1.677885 | val_rmse=35.429062
+[2026-04-18 17:16:12] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_039.jls
+[2026-04-18 17:16:12] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_039_best.jls
+[2026-04-18 17:26:28] Epoch 40/100 | train_loss=4567.924302 | train_traj=4567.589505 | train_strategy=1.673985 | train_rmse=23.086066 | val_loss=15052.337901 | val_strategy=1.637762 | val_rmse=36.165364
+[2026-04-18 17:26:28] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_040.jls
+[2026-04-18 17:26:28] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_040_best.jls
+[2026-04-18 17:36:41] Epoch 41/100 | train_loss=4534.627861 | train_traj=4534.288029 | train_strategy=1.699159 | train_rmse=23.022417 | val_loss=14915.867608 | val_strategy=1.704031 | val_rmse=35.335064
+[2026-04-18 17:36:41] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_041.jls
+[2026-04-18 17:36:41] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_041_best.jls
+[2026-04-18 17:46:53] Epoch 42/100 | train_loss=4503.561721 | train_traj=4503.240066 | train_strategy=1.608273 | train_rmse=22.605672 | val_loss=14891.342111 | val_strategy=1.647399 | val_rmse=35.757241
+[2026-04-18 17:46:53] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_042.jls
+[2026-04-18 17:46:53] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_042_best.jls
+[2026-04-18 17:57:07] Epoch 43/100 | train_loss=4437.18197 | train_traj=4436.84556 | train_strategy=1.68205 | train_rmse=22.539324 | val_loss=14858.300981 | val_strategy=1.60172 | val_rmse=35.999608
+[2026-04-18 17:57:07] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_043.jls
+[2026-04-18 17:57:07] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_043_best.jls
+[2026-04-18 18:07:20] Epoch 44/100 | train_loss=4400.784267 | train_traj=4400.457348 | train_strategy=1.634596 | train_rmse=22.444869 | val_loss=14744.537113 | val_strategy=1.584883 | val_rmse=35.637605
+[2026-04-18 18:07:20] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_044.jls
+[2026-04-18 18:07:20] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_044_best.jls
+[2026-04-18 18:17:37] Epoch 45/100 | train_loss=4380.782405 | train_traj=4380.455565 | train_strategy=1.634202 | train_rmse=22.034924 | val_loss=14680.557421 | val_strategy=1.56095 | val_rmse=35.562487
+[2026-04-18 18:17:37] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_045.jls
+[2026-04-18 18:17:37] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_045_best.jls
+[2026-04-18 18:27:50] Epoch 46/100 | train_loss=4476.13922 | train_traj=4475.807259 | train_strategy=1.659806 | train_rmse=21.975929 | val_loss=14588.819412 | val_strategy=1.509711 | val_rmse=35.161743
+[2026-04-18 18:27:50] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_046.jls
+[2026-04-18 18:27:50] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_046_best.jls
+[2026-04-18 18:38:01] Epoch 47/100 | train_loss=4312.292803 | train_traj=4311.964178 | train_strategy=1.643126 | train_rmse=22.56943 | val_loss=14490.679783 | val_strategy=1.54593 | val_rmse=34.909178
+[2026-04-18 18:38:01] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_047.jls
+[2026-04-18 18:38:01] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_047_best.jls
+[2026-04-18 18:48:12] Epoch 48/100 | train_loss=4258.209131 | train_traj=4257.865443 | train_strategy=1.718439 | train_rmse=22.154506 | val_loss=14475.119271 | val_strategy=1.514477 | val_rmse=35.553522
+[2026-04-18 18:48:12] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_048.jls
+[2026-04-18 18:48:12] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_048_best.jls
+[2026-04-18 18:58:26] Epoch 49/100 | train_loss=4203.151268 | train_traj=4202.823821 | train_strategy=1.637237 | train_rmse=21.6111 | val_loss=14373.098355 | val_strategy=1.520324 | val_rmse=34.890285
+[2026-04-18 18:58:26] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_049.jls
+[2026-04-18 18:58:26] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_049_best.jls
+[2026-04-18 19:08:38] Epoch 50/100 | train_loss=4162.69582 | train_traj=4162.364981 | train_strategy=1.654196 | train_rmse=21.463557 | val_loss=14315.992463 | val_strategy=1.519002 | val_rmse=34.973743
+[2026-04-18 19:08:38] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_050.jls
+[2026-04-18 19:08:38] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_050_best.jls
+[2026-04-18 19:18:47] Epoch 51/100 | train_loss=4126.111759 | train_traj=4125.77859 | train_strategy=1.665845 | train_rmse=21.27256 | val_loss=14281.475908 | val_strategy=1.510653 | val_rmse=35.186025
+[2026-04-18 19:18:47] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_051.jls
+[2026-04-18 19:18:47] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_051_best.jls
+[2026-04-18 19:28:57] Epoch 52/100 | train_loss=4093.079339 | train_traj=4092.746787 | train_strategy=1.66276 | train_rmse=21.179793 | val_loss=14193.661521 | val_strategy=1.476904 | val_rmse=34.90695
+[2026-04-18 19:28:57] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_052.jls
+[2026-04-18 19:28:57] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_052_best.jls
+[2026-04-18 19:39:05] Epoch 53/100 | train_loss=4056.494477 | train_traj=4056.159608 | train_strategy=1.674346 | train_rmse=21.027983 | val_loss=14147.353266 | val_strategy=1.439777 | val_rmse=34.933219
+[2026-04-18 19:39:05] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_053.jls
+[2026-04-18 19:39:05] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_053_best.jls
+[2026-04-18 19:49:13] Epoch 54/100 | train_loss=4031.819807 | train_traj=4031.482173 | train_strategy=1.688169 | train_rmse=21.183283 | val_loss=14067.103566 | val_strategy=1.538636 | val_rmse=34.864275
+[2026-04-18 19:49:13] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_054.jls
+[2026-04-18 19:49:13] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_054_best.jls
+[2026-04-18 19:59:19] Epoch 55/100 | train_loss=4019.185189 | train_traj=4018.851274 | train_strategy=1.669576 | train_rmse=21.927466 | val_loss=13926.236164 | val_strategy=1.506883 | val_rmse=34.115183
+[2026-04-18 19:59:19] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_055.jls
+[2026-04-18 19:59:19] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_055_best.jls
+[2026-04-18 20:09:28] Epoch 56/100 | train_loss=3968.344328 | train_traj=3968.015084 | train_strategy=1.646219 | train_rmse=21.330845 | val_loss=13976.885937 | val_strategy=1.407238 | val_rmse=35.254268
+[2026-04-18 20:09:28] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_056.jls
+[2026-04-18 20:19:35] Epoch 57/100 | train_loss=3935.738146 | train_traj=3935.401992 | train_strategy=1.68077 | train_rmse=21.122226 | val_loss=13837.877192 | val_strategy=1.621282 | val_rmse=34.278993
+[2026-04-18 20:19:35] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_057.jls
+[2026-04-18 20:19:35] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_057_best.jls
+[2026-04-18 20:29:43] Epoch 58/100 | train_loss=3895.199121 | train_traj=3894.866595 | train_strategy=1.662626 | train_rmse=20.66526 | val_loss=13786.48389 | val_strategy=1.535601 | val_rmse=34.376014
+[2026-04-18 20:29:43] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_058.jls
+[2026-04-18 20:29:43] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_058_best.jls
+[2026-04-18 20:39:52] Epoch 59/100 | train_loss=3859.547788 | train_traj=3859.217655 | train_strategy=1.650666 | train_rmse=20.445551 | val_loss=13765.654457 | val_strategy=1.533101 | val_rmse=34.607716
+[2026-04-18 20:39:52] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_059.jls
+[2026-04-18 20:39:52] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_059_best.jls
+[2026-04-18 20:49:59] Epoch 60/100 | train_loss=3826.343967 | train_traj=3826.0138 | train_strategy=1.650834 | train_rmse=20.321834 | val_loss=13701.77322 | val_strategy=1.529234 | val_rmse=34.403389
+[2026-04-18 20:49:59] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_060.jls
+[2026-04-18 20:49:59] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_060_best.jls
+[2026-04-18 21:00:06] Epoch 61/100 | train_loss=3801.552848 | train_traj=3801.219033 | train_strategy=1.669074 | train_rmse=20.304826 | val_loss=13622.072527 | val_strategy=1.548842 | val_rmse=34.204394
+[2026-04-18 21:00:06] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_061.jls
+[2026-04-18 21:00:06] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_061_best.jls
+[2026-04-18 21:10:16] Epoch 62/100 | train_loss=3787.71009 | train_traj=3787.375678 | train_strategy=1.672057 | train_rmse=20.190979 | val_loss=13602.553971 | val_strategy=1.559768 | val_rmse=34.405752
+[2026-04-18 21:10:16] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_062.jls
+[2026-04-18 21:10:16] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_062_best.jls
+[2026-04-18 21:20:23] Epoch 63/100 | train_loss=3742.146364 | train_traj=3741.819771 | train_strategy=1.632966 | train_rmse=20.05376 | val_loss=13545.944672 | val_strategy=1.544915 | val_rmse=34.39535
+[2026-04-18 21:20:23] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_063.jls
+[2026-04-18 21:20:23] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_063_best.jls
+[2026-04-18 21:30:31] Epoch 64/100 | train_loss=3713.630783 | train_traj=3713.295943 | train_strategy=1.674196 | train_rmse=20.177596 | val_loss=13469.348278 | val_strategy=1.576681 | val_rmse=34.215408
+[2026-04-18 21:30:31] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_064.jls
+[2026-04-18 21:30:31] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_064_best.jls
+[2026-04-18 21:40:40] Epoch 65/100 | train_loss=3715.545456 | train_traj=3715.200037 | train_strategy=1.727093 | train_rmse=20.801675 | val_loss=13415.597405 | val_strategy=1.655237 | val_rmse=34.397435
+[2026-04-18 21:40:40] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_065.jls
+[2026-04-18 21:40:40] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_065_best.jls
+[2026-04-18 21:50:49] Epoch 66/100 | train_loss=3682.464698 | train_traj=3682.126962 | train_strategy=1.688679 | train_rmse=20.791006 | val_loss=13285.259229 | val_strategy=1.687534 | val_rmse=33.304351
+[2026-04-18 21:50:49] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_066.jls
+[2026-04-18 21:50:49] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_066_best.jls
+[2026-04-18 22:00:56] Epoch 67/100 | train_loss=3656.35382 | train_traj=3656.027497 | train_strategy=1.631616 | train_rmse=19.896538 | val_loss=13287.672453 | val_strategy=1.628198 | val_rmse=33.702239
+[2026-04-18 22:00:56] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_067.jls
+[2026-04-18 22:11:07] Epoch 68/100 | train_loss=3605.985713 | train_traj=3605.652086 | train_strategy=1.668135 | train_rmse=20.297053 | val_loss=13239.447904 | val_strategy=1.676209 | val_rmse=34.165065
+[2026-04-18 22:11:07] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_068.jls
+[2026-04-18 22:11:07] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_068_best.jls
+[2026-04-18 22:21:15] Epoch 69/100 | train_loss=3576.737146 | train_traj=3576.401421 | train_strategy=1.678625 | train_rmse=19.793536 | val_loss=13226.613529 | val_strategy=1.626473 | val_rmse=34.136886
+[2026-04-18 22:21:15] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_069.jls
+[2026-04-18 22:21:15] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_069_best.jls
+[2026-04-18 22:31:25] Epoch 70/100 | train_loss=3551.784052 | train_traj=3551.45118 | train_strategy=1.664362 | train_rmse=19.775808 | val_loss=13115.746385 | val_strategy=1.658923 | val_rmse=33.345254
+[2026-04-18 22:31:25] Saved checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_070.jls
+[2026-04-18 22:31:25] Saved best checkpoint: /orcd/home/002/gretar/6_7320/models/epoch_070_best.jls

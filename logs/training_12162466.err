@@ -1,0 +1,423 @@
+  Activating project at `/orcd/home/002/gretar/6_7320`
+┌ Warning: The use of `Flux.@functor` is deprecated.
+│ Most likely, you should write `Flux.@layer MyLayer`which will add various convenience methods for your type,such as pretty-printing and use with Adapt.jl.
+│ However, this is not required. Flux.jl v0.15 uses Functors.jl v0.5,which makes exploration of most nested `struct`s opt-out instead of opt-in...so Flux will automatically see inside any custom struct definitions.
+│ If you really want to apply the `@functor` macro to a custom struct, use `Functors.@functor` instead.
+└ @ Flux ~/.julia/packages/Flux/DZYiO/src/deprecations.jl:101
+┌ Warning: Layer with Float32 parameters got Float64 input.
+│   The input will be converted, but any earlier layers may be very slow.
+│   layer = Dense(30 => 64, tanh)  # 1_984 parameters
+│   summary(x) = "30-element Vector{Float64}"
+└ @ Flux ~/.julia/packages/Flux/DZYiO/src/layers/stateless.jl:60
+Training epochs   2%|▌                     |  ETA: 17:28:27 (10.70  m/it)[K
+        epoch: 2[K
+   train_loss: 8004.73548[K
+     val_loss: 20292.90143[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs   3%|▋                     |  ETA: 17:06:19 (10.58  m/it)[K
+        epoch: 3[K
+   train_loss: 7679.08159[K
+     val_loss: 19928.39448[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs   4%|▉                     |  ETA: 16:52:23 (10.55  m/it)[K
+        epoch: 4[K
+   train_loss: 7425.20527[K
+     val_loss: 19583.41044[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs   5%|█▏                    |  ETA: 16:38:06 (10.51  m/it)[K
+        epoch: 5[K
+   train_loss: 7199.64859[K
+     val_loss: 19296.22781[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs   6%|█▍                    |  ETA: 16:24:03 (10.47  m/it)[K
+        epoch: 6[K
+   train_loss: 7028.74579[K
+     val_loss: 19049.47552[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs   7%|█▌                    |  ETA: 16:12:34 (10.46  m/it)[K
+        epoch: 7[K
+   train_loss: 6900.44717[K
+     val_loss: 18840.52335[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs   8%|█▊                    |  ETA: 16:00:47 (10.44  m/it)[K
+        epoch: 8[K
+   train_loss: 6805.67483[K
+     val_loss: 18639.43024[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs   9%|██                    |  ETA: 15:48:39 (10.42  m/it)[K
+        epoch: 9[K
+   train_loss: 6645.79202[K
+     val_loss: 18470.86643[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  10%|██▎                   |  ETA: 15:36:21 (10.40  m/it)[K
+        epoch: 10[K
+   train_loss: 6548.20201[K
+     val_loss: 18311.85264[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  11%|██▍                   |  ETA: 15:24:36 (10.39  m/it)[K
+        epoch: 11[K
+   train_loss: 6468.9217[K
+     val_loss: 18159.89925[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  12%|██▋                   |  ETA: 15:12:47 (10.37  m/it)[K
+        epoch: 12[K
+   train_loss: 6366.67292[K
+     val_loss: 17996.63014[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  13%|██▉                   |  ETA: 15:02:06 (10.37  m/it)[K
+        epoch: 13[K
+   train_loss: 6275.88178[K
+     val_loss: 17859.55303[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  14%|███▏                  |  ETA: 14:51:27 (10.37  m/it)[K
+        epoch: 14[K
+   train_loss: 6186.20731[K
+     val_loss: 17729.2677[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  15%|███▎                  |  ETA: 14:41:01 (10.36  m/it)[K
+        epoch: 15[K
+   train_loss: 6107.45523[K
+     val_loss: 17582.97504[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  16%|███▌                  |  ETA: 14:30:50 (10.37  m/it)[K
+        epoch: 16[K
+   train_loss: 6026.3743[K
+     val_loss: 17439.28219[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  17%|███▊                  |  ETA: 14:20:28 (10.37  m/it)[K
+        epoch: 17[K
+   train_loss: 5940.81024[K
+     val_loss: 17314.79456[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  18%|████                  |  ETA: 14:10:11 (10.37  m/it)[K
+        epoch: 18[K
+   train_loss: 5871.14045[K
+     val_loss: 17179.63809[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  19%|████▏                 |  ETA: 13:59:51 (10.37  m/it)[K
+        epoch: 19[K
+   train_loss: 5786.14492[K
+     val_loss: 17075.85751[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  20%|████▍                 |  ETA: 13:49:36 (10.37  m/it)[K
+        epoch: 20[K
+   train_loss: 5712.67847[K
+     val_loss: 16932.73515[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  21%|████▋                 |  ETA: 13:39:41 (10.38  m/it)[K
+        epoch: 21[K
+   train_loss: 5651.62367[K
+     val_loss: 16807.74403[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  22%|████▉                 |  ETA: 13:29:37 (10.38  m/it)[K
+        epoch: 22[K
+   train_loss: 5563.42211[K
+     val_loss: 16686.97872[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  23%|█████                 |  ETA: 13:19:27 (10.38  m/it)[K
+        epoch: 23[K
+   train_loss: 5726.09851[K
+     val_loss: 16606.21259[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  24%|█████▎                |  ETA: 13:09:29 (10.39  m/it)[K
+        epoch: 24[K
+   train_loss: 5484.79027[K
+     val_loss: 16458.10398[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  25%|█████▌                |  ETA: 12:59:15 (10.39  m/it)[K
+        epoch: 25[K
+   train_loss: 5391.62904[K
+     val_loss: 16372.38586[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  26%|█████▊                |  ETA: 12:48:38 (10.39  m/it)[K
+        epoch: 26[K
+   train_loss: 5326.81347[K
+     val_loss: 16281.05592[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  27%|██████                |  ETA: 12:37:50 (10.38  m/it)[K
+        epoch: 27[K
+   train_loss: 5234.57727[K
+     val_loss: 16145.07994[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  28%|██████▏               |  ETA: 12:27:06 (10.38  m/it)[K
+        epoch: 28[K
+   train_loss: 5182.418[K
+     val_loss: 16026.45098[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  29%|██████▍               |  ETA: 12:16:42 (10.38  m/it)[K
+        epoch: 29[K
+   train_loss: 5118.68707[K
+     val_loss: 15932.11594[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  30%|██████▋               |  ETA: 12:06:02 (10.37  m/it)[K
+        epoch: 30[K
+   train_loss: 5063.14816[K
+     val_loss: 15862.92036[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  31%|██████▉               |  ETA: 11:55:06 (10.36  m/it)[K
+        epoch: 31[K
+   train_loss: 5001.86048[K
+     val_loss: 15784.70676[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  32%|███████               |  ETA: 11:44:11 (10.36  m/it)[K
+        epoch: 32[K
+   train_loss: 4958.67282[K
+     val_loss: 15679.62862[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  33%|███████▎              |  ETA: 11:33:19 (10.35  m/it)[K
+        epoch: 33[K
+   train_loss: 4902.18762[K
+     val_loss: 15581.23751[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  34%|███████▌              |  ETA: 11:22:41 (10.34  m/it)[K
+        epoch: 34[K
+   train_loss: 4855.33047[K
+     val_loss: 15506.45049[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  35%|███████▊              |  ETA: 11:12:03 (10.34  m/it)[K
+        epoch: 35[K
+   train_loss: 4804.94667[K
+     val_loss: 15441.07772[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  36%|███████▉              |  ETA: 11:01:30 (10.34  m/it)[K
+        epoch: 36[K
+   train_loss: 4751.22406[K
+     val_loss: 15339.78729[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  37%|████████▏             |  ETA: 10:50:55 (10.33  m/it)[K
+        epoch: 37[K
+   train_loss: 4701.08397[K
+     val_loss: 15299.74897[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  38%|████████▍             |  ETA: 10:40:26 (10.33  m/it)[K
+        epoch: 38[K
+   train_loss: 4658.92868[K
+     val_loss: 15176.77924[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  39%|████████▋             |  ETA: 10:29:59 (10.33  m/it)[K
+        epoch: 39[K
+   train_loss: 4614.56762[K
+     val_loss: 15081.1955[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  40%|████████▊             |  ETA: 10:19:34 (10.33  m/it)[K
+        epoch: 40[K
+   train_loss: 4567.9243[K
+     val_loss: 15052.3379[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  41%|█████████             |  ETA: 10:09:05 (10.32  m/it)[K
+        epoch: 41[K
+   train_loss: 4534.62786[K
+     val_loss: 14915.86761[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  42%|█████████▎            |  ETA: 9:58:36 (10.32  m/it)[K
+        epoch: 42[K
+   train_loss: 4503.56172[K
+     val_loss: 14891.34211[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  43%|█████████▌            |  ETA: 9:48:10 (10.32  m/it)[K
+        epoch: 43[K
+   train_loss: 4437.18197[K
+     val_loss: 14858.30098[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  44%|█████████▋            |  ETA: 9:37:43 (10.32  m/it)[K
+        epoch: 44[K
+   train_loss: 4400.78427[K
+     val_loss: 14744.53711[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  45%|█████████▉            |  ETA: 9:27:21 (10.32  m/it)[K
+        epoch: 45[K
+   train_loss: 4380.78241[K
+     val_loss: 14680.55742[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  46%|██████████▏           |  ETA: 9:16:56 (10.31  m/it)[K
+        epoch: 46[K
+   train_loss: 4476.13922[K
+     val_loss: 14588.81941[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  47%|██████████▍           |  ETA: 9:06:28 (10.31  m/it)[K
+        epoch: 47[K
+   train_loss: 4312.2928[K
+     val_loss: 14490.67978[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  48%|██████████▌           |  ETA: 8:56:01 (10.31  m/it)[K
+        epoch: 48[K
+   train_loss: 4258.20913[K
+     val_loss: 14475.11927[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  49%|██████████▊           |  ETA: 8:45:38 (10.31  m/it)[K
+        epoch: 49[K
+   train_loss: 4203.15127[K
+     val_loss: 14373.09835[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  50%|███████████           |  ETA: 8:35:13 (10.30  m/it)[K
+        epoch: 50[K
+   train_loss: 4162.69582[K
+     val_loss: 14315.99246[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  51%|███████████▎          |  ETA: 8:24:46 (10.30  m/it)[K
+        epoch: 51[K
+   train_loss: 4126.11176[K
+     val_loss: 14281.47591[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  52%|███████████▌          |  ETA: 8:14:21 (10.30  m/it)[K
+        epoch: 52[K
+   train_loss: 4093.07934[K
+     val_loss: 14193.66152[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  53%|███████████▋          |  ETA: 8:03:54 (10.30  m/it)[K
+        epoch: 53[K
+   train_loss: 4056.49448[K
+     val_loss: 14147.35327[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  54%|███████████▉          |  ETA: 7:53:28 (10.29  m/it)[K
+        epoch: 54[K
+   train_loss: 4031.81981[K
+     val_loss: 14067.10357[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  55%|████████████▏         |  ETA: 7:43:00 (10.29  m/it)[K
+        epoch: 55[K
+   train_loss: 4019.18519[K
+     val_loss: 13926.23616[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  56%|████████████▍         |  ETA: 7:32:36 (10.29  m/it)[K
+        epoch: 56[K
+   train_loss: 3968.34433[K
+     val_loss: 13976.88594[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  57%|████████████▌         |  ETA: 7:22:12 (10.28  m/it)[K
+        epoch: 57[K
+   train_loss: 3935.73815[K
+     val_loss: 13837.87719[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  58%|████████████▊         |  ETA: 7:11:48 (10.28  m/it)[K
+        epoch: 58[K
+   train_loss: 3895.19912[K
+     val_loss: 13786.48389[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  59%|█████████████         |  ETA: 7:01:26 (10.28  m/it)[K
+        epoch: 59[K
+   train_loss: 3859.54779[K
+     val_loss: 13765.65446[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  60%|█████████████▎        |  ETA: 6:51:03 (10.28  m/it)[K
+        epoch: 60[K
+   train_loss: 3826.34397[K
+     val_loss: 13701.77322[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  61%|█████████████▍        |  ETA: 6:40:40 (10.27  m/it)[K
+        epoch: 61[K
+   train_loss: 3801.55285[K
+     val_loss: 13622.07253[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  62%|█████████████▋        |  ETA: 6:30:20 (10.27  m/it)[K
+        epoch: 62[K
+   train_loss: 3787.71009[K
+     val_loss: 13602.55397[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  63%|█████████████▉        |  ETA: 6:19:58 (10.27  m/it)[K
+        epoch: 63[K
+   train_loss: 3742.14636[K
+     val_loss: 13545.94467[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  64%|██████████████▏       |  ETA: 6:09:37 (10.27  m/it)[K
+        epoch: 64[K
+   train_loss: 3713.63078[K
+     val_loss: 13469.34828[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  65%|██████████████▎       |  ETA: 5:59:17 (10.27  m/it)[K
+        epoch: 65[K
+   train_loss: 3715.54546[K
+     val_loss: 13415.5974[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  66%|██████████████▌       |  ETA: 5:48:58 (10.26  m/it)[K
+        epoch: 66[K
+   train_loss: 3682.4647[K
+     val_loss: 13285.25923[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  67%|██████████████▊       |  ETA: 5:38:38 (10.26  m/it)[K
+        epoch: 67[K
+   train_loss: 3656.35382[K
+     val_loss: 13287.67245[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  68%|███████████████       |  ETA: 5:28:20 (10.26  m/it)[K
+        epoch: 68[K
+   train_loss: 3605.98571[K
+     val_loss: 13239.4479[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  69%|███████████████▏      |  ETA: 5:18:01 (10.26  m/it)[K
+        epoch: 69[K
+   train_loss: 3576.73715[K
+     val_loss: 13226.61353[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  70%|███████████████▍      |  ETA: 5:07:43 (10.26  m/it)[K
+        epoch: 70[K
+   train_loss: 3551.78405[K
+     val_loss: 13115.74639[K[A[A[A[2026-04-18T22:32:30.009] error: *** JOB 12162466 ON node1619 CANCELLED AT 2026-04-18T22:32:30 DUE TO TIME LIMIT ***

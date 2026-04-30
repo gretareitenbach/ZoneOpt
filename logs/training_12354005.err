@@ -1,0 +1,591 @@
+Precompiling packages...
+   1002.1 ms  ✓ CUDA_Driver_jll
+  1 dependency successfully precompiled in 1 seconds. 6 already precompiled.
+Precompiling packages...
+   1217.4 ms  ✓ CUDA_Runtime_jll
+  1 dependency successfully precompiled in 2 seconds. 30 already precompiled.
+  Activating project at `/orcd/home/002/gretar/6_7320`
+Precompiling packages...
+   2741.5 ms  ✓ Measures
+   2397.7 ms  ✓ LLVMLoopInfo
+   2824.4 ms  ✓ Contour
+   2688.8 ms  ✓ SimpleBufferStream
+   1995.8 ms  ✓ BitFlags
+   1963.9 ms  ✓ TensorCore
+   1851.7 ms  ✓ StableRNGs
+   4095.0 ms  ✓ URIs
+   3366.2 ms  ✓ ConcurrentUtilities
+   3371.7 ms  ✓ Random123
+   5172.8 ms  ✓ Format
+   5057.2 ms  ✓ CUDA_Runtime_Discovery
+   4416.9 ms  ✓ Unzip
+   4268.6 ms  ✓ BFloat16s
+   5717.2 ms  ✓ Grisu
+   5479.8 ms  ✓ FixedPointNumbers
+   4058.1 ms  ✓ RelocatableFolders
+   4054.8 ms  ✓ ExceptionUnwrapping
+   4059.2 ms  ✓ UnicodeFun
+   4051.8 ms  ✓ Xorg_libICE_jll
+   4041.8 ms  ✓ Libffi_jll
+   4097.8 ms  ✓ LLVMOpenMP_jll
+   4962.1 ms  ✓ OpenSSL
+   5495.8 ms  ✓ CUDA_Driver_jll
+   3632.6 ms  ✓ GPUToolbox
+   3563.7 ms  ✓ fzf_jll
+   3557.3 ms  ✓ JpegTurbo_jll
+   2918.1 ms  ✓ Ogg_jll
+   2914.5 ms  ✓ mtdev_jll
+   2905.0 ms  ✓ x265_jll
+   2617.6 ms  ✓ x264_jll
+   1413.9 ms  ✓ EpollShim_jll
+   1462.0 ms  ✓ Xorg_libXau_jll
+   1492.8 ms  ✓ Xorg_libpciaccess_jll
+   1481.7 ms  ✓ Xorg_libSM_jll
+   1477.3 ms  ✓ libpng_jll
+   1055.7 ms  ✓ demumble_jll
+   1049.2 ms  ✓ Pixman_jll
+   1518.7 ms  ✓ Graphite2_jll
+   1046.3 ms  ✓ LAME_jll
+    984.1 ms  ✓ Xorg_libXdmcp_jll
+    953.0 ms  ✓ Xorg_xtrans_jll
+   1103.6 ms  ✓ Opus_jll
+   1216.8 ms  ✓ Expat_jll
+   1272.8 ms  ✓ libvorbis_jll
+    860.5 ms  ✓ Libmount_jll
+    738.8 ms  ✓ NVTX_jll
+    780.0 ms  ✓ Bzip2_jll
+    776.5 ms  ✓ LERC_jll
+    939.6 ms  ✓ JuliaNVTXCallbacks_jll
+    999.3 ms  ✓ libfdk_aac_jll
+    975.2 ms  ✓ libevdev_jll
+   1050.0 ms  ✓ libdrm_jll
+   1024.2 ms  ✓ XZ_jll
+    686.0 ms  ✓ Showoff
+    869.8 ms  ✓ Libiconv_jll
+    734.7 ms  ✓ FriBidi_jll
+   6123.1 ms  ✓ GPUArrays
+   1002.1 ms  ✓ JLFzf
+   1166.3 ms  ✓ libaom_jll
+   1226.1 ms  ✓ MbedTLS_jll
+   1019.2 ms  ✓ Zstd_jll
+   3129.1 ms  ✓ CUDA_Runtime_jll
+   1326.4 ms  ✓ eudev_jll
+   1318.8 ms  ✓ Libuuid_jll
+   1145.3 ms  ✓ Dbus_jll
+   1231.5 ms  ✓ Wayland_jll
+   1169.2 ms  ✓ FreeType2_jll
+    900.5 ms  ✓ GettextRuntime_jll
+   1728.6 ms  ✓ Ghostscript_jll
+   2722.0 ms  ✓ LLVM → BFloat16sExt
+    979.3 ms  ✓ NVTX
+   2317.0 ms  ✓ Enzyme → EnzymeBFloat16sExt
+   2374.9 ms  ✓ ColorTypes
+   2200.1 ms  ✓ Xorg_libxcb_jll
+    932.8 ms  ✓ Libtiff_jll
+   1048.2 ms  ✓ libinput_jll
+   1472.2 ms  ✓ MbedTLS
+   1199.8 ms  ✓ Fontconfig_jll
+    746.4 ms  ✓ ColorTypes → StyledStringsExt
+   1120.3 ms  ✓ Glib_jll
+    846.5 ms  ✓ Xorg_xcb_util_jll
+   1084.5 ms  ✓ Xorg_libX11_jll
+   2644.3 ms  ✓ MLDataDevices → GPUArraysSparseArraysExt
+   2238.2 ms  ✓ CUDA_Compiler_jll
+   2888.7 ms  ✓ WeightInitializers → GPUArraysExt
+    808.1 ms  ✓ Xorg_xcb_util_image_jll
+    876.2 ms  ✓ Xorg_xcb_util_keysyms_jll
+    996.4 ms  ✓ Xorg_libXrender_jll
+   1252.2 ms  ✓ Xorg_xcb_util_renderutil_jll
+   1050.2 ms  ✓ Xorg_libXfixes_jll
+   1097.6 ms  ✓ Xorg_libXext_jll
+   1494.7 ms  ✓ Xorg_xcb_util_wm_jll
+   1229.8 ms  ✓ Xorg_libxkbfile_jll
+   3916.4 ms  ✓ Lux → GPUArraysExt
+    855.2 ms  ✓ Xorg_xcb_util_cursor_jll
+   3181.4 ms  ✓ ColorVectorSpace
+    837.4 ms  ✓ Xorg_libXcursor_jll
+    862.9 ms  ✓ Xorg_libXrandr_jll
+    905.3 ms  ✓ Xorg_libXinerama_jll
+    956.3 ms  ✓ Xorg_xkbcomp_jll
+   1131.7 ms  ✓ Xorg_libXi_jll
+   1072.8 ms  ✓ Libglvnd_jll
+   1197.2 ms  ✓ libva_jll
+   4036.7 ms  ✓ Latexify
+   1494.7 ms  ✓ Cairo_jll
+    788.9 ms  ✓ ColorVectorSpace → SpecialFunctionsExt
+   4115.5 ms  ✓ Colors
+    752.8 ms  ✓ Xorg_xkeyboard_config_jll
+    923.5 ms  ✓ Latexify → SparseArraysExt
+    643.6 ms  ✓ NVTX → NVTXColorsExt
+   1130.9 ms  ✓ HarfBuzz_jll
+    956.8 ms  ✓ SparseMatrixColorings → SparseMatrixColoringsColorsExt
+    855.0 ms  ✓ xkbcommon_jll
+   1980.2 ms  ✓ Latexify → DataFramesExt
+    910.8 ms  ✓ Pango_jll
+    934.3 ms  ✓ libass_jll
+   1890.5 ms  ✓ Zygote → ZygoteColorsExt
+    973.5 ms  ✓ Vulkan_Loader_jll
+    901.8 ms  ✓ libdecor_jll
+   1259.2 ms  ✓ FFMPEG_jll
+   1337.8 ms  ✓ Qt6Base_jll
+    906.9 ms  ✓ GLFW_jll
+   3828.1 ms  ✓ ColorSchemes
+    804.3 ms  ✓ FFMPEG
+   1039.3 ms  ✓ Qt6ShaderTools_jll
+   1065.3 ms  ✓ Qt6Svg_jll
+   1220.7 ms  ✓ GR_jll
+   2191.5 ms  ✓ Qt6Declarative_jll
+   1645.3 ms  ✓ Qt6Wayland_jll
+  12781.0 ms  ✓ HTTP
+   6469.8 ms  ✓ PlotUtils
+   2396.6 ms  ✓ PlotThemes
+   3808.0 ms  ✓ GR
+   3072.5 ms  ✓ RecipesPipeline
+   1355.4 ms  ✓ GR → IJuliaExt
+  32700.2 ms  ✓ CUDA
+    449.5 ms  ✓ Flux → FluxCUDAExt
+   7218.0 ms  ✓ CUDA → SpecialFunctionsExt
+   7204.6 ms  ✓ Atomix → AtomixCUDAExt
+   7803.4 ms  ✓ CUDA → EnzymeCoreExt
+   7834.9 ms  ✓ MLDataDevices → CUDAExt
+   7889.2 ms  ✓ ArrayInterface → ArrayInterfaceCUDAExt
+   7967.7 ms  ✓ CUDA → ChainRulesCoreExt
+   7974.5 ms  ✓ SparseMatrixColorings → SparseMatrixColoringsCUDAExt
+   8038.7 ms  ✓ WeightInitializers → CUDAExt
+   8129.3 ms  ✓ NNlib → NNlibCUDAExt
+   8239.3 ms  ✓ DiffEqBase → DiffEqBaseCUDAExt
+   8474.7 ms  ✓ LinearSolve → LinearSolveCUDAExt
+   8893.3 ms  ✓ LuxLib → CUDAExt
+   4018.8 ms  ✓ LuxLib → CUDAForwardDiffExt
+  39681.6 ms  ✓ Plots
+   2891.9 ms  ✓ Plots → IJuliaExt
+  153 dependencies successfully precompiled in 80 seconds. 485 already precompiled.
+  1 dependency had output during precompilation:
+┌ Flux → FluxCUDAExt
+│  ┌ Warning: Package cuDNN not found in current path.
+│  │ - Run `import Pkg; Pkg.add("cuDNN")` to install the cuDNN package, then restart julia.
+│  │ - If cuDNN is not installed, some Flux functionalities will not be available when running on the GPU.
+│  └ @ FluxCUDAExt ~/.julia/packages/Flux/DZYiO/ext/FluxCUDAExt.jl:8
+└  
+┌ Warning: The use of `Flux.@functor` is deprecated.
+│ Most likely, you should write `Flux.@layer MyLayer`which will add various convenience methods for your type,such as pretty-printing and use with Adapt.jl.
+│ However, this is not required. Flux.jl v0.15 uses Functors.jl v0.5,which makes exploration of most nested `struct`s opt-out instead of opt-in...so Flux will automatically see inside any custom struct definitions.
+│ If you really want to apply the `@functor` macro to a custom struct, use `Functors.@functor` instead.
+└ @ Flux ~/.julia/packages/Flux/DZYiO/src/deprecations.jl:101
+┌ Warning: Layer with Float32 parameters got Float64 input.
+│   The input will be converted, but any earlier layers may be very slow.
+│   layer = Dense(30 => 64, tanh)  # 1_984 parameters
+│   summary(x) = "30-element Vector{Float64}"
+└ @ Flux ~/.julia/packages/Flux/DZYiO/src/layers/stateless.jl:60
+Training epochs   1%|▎                     |  ETA: 1 days, 7:19:25 (10.56  m/it)[K
+        epoch: 72[K
+   train_loss: 3507.05632[K
+     val_loss: 13098.46341[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs   2%|▍                     |  ETA: 1 days, 6:46:41 (10.43  m/it)[K
+        epoch: 73[K
+   train_loss: 3482.05026[K
+     val_loss: 12987.01633[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs   2%|▌                     |  ETA: 1 days, 6:22:43 (10.36  m/it)[K
+        epoch: 74[K
+   train_loss: 3446.40544[K
+     val_loss: 12961.92885[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs   3%|▋                     |  ETA: 1 days, 6:06:50 (10.32  m/it)[K
+        epoch: 75[K
+   train_loss: 3418.39007[K
+     val_loss: 12883.90991[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs   3%|▊                     |  ETA: 1 days, 5:53:07 (10.31  m/it)[K
+        epoch: 76[K
+   train_loss: 3390.00726[K
+     val_loss: 12807.02785[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs   4%|▉                     |  ETA: 1 days, 5:41:03 (10.30  m/it)[K
+        epoch: 77[K
+   train_loss: 3361.23843[K
+     val_loss: 12789.6374[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs   4%|█                     |  ETA: 1 days, 5:28:28 (10.28  m/it)[K
+        epoch: 78[K
+   train_loss: 3333.40945[K
+     val_loss: 12703.03009[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs   5%|█▏                    |  ETA: 1 days, 5:15:34 (10.27  m/it)[K
+        epoch: 79[K
+   train_loss: 3308.05846[K
+     val_loss: 12706.14609[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs   6%|█▎                    |  ETA: 1 days, 5:02:43 (10.25  m/it)[K
+        epoch: 80[K
+   train_loss: 3285.24628[K
+     val_loss: 12587.45414[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs   6%|█▍                    |  ETA: 1 days, 4:50:45 (10.24  m/it)[K
+        epoch: 81[K
+   train_loss: 3261.99598[K
+     val_loss: 12585.95383[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs   7%|█▌                    |  ETA: 1 days, 4:39:25 (10.23  m/it)[K
+        epoch: 82[K
+   train_loss: 3236.61919[K
+     val_loss: 12606.52301[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs   7%|█▋                    |  ETA: 1 days, 4:28:06 (10.23  m/it)[K
+        epoch: 83[K
+   train_loss: 3216.83881[K
+     val_loss: 12498.02811[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs   8%|█▊                    |  ETA: 1 days, 4:17:07 (10.22  m/it)[K
+        epoch: 84[K
+   train_loss: 3180.55682[K
+     val_loss: 12402.37483[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs   8%|█▉                    |  ETA: 1 days, 4:06:00 (10.22  m/it)[K
+        epoch: 85[K
+   train_loss: 3155.01688[K
+     val_loss: 12376.24545[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs   9%|██                    |  ETA: 1 days, 3:54:59 (10.21  m/it)[K
+        epoch: 86[K
+   train_loss: 3128.39309[K
+     val_loss: 12323.64884[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs   9%|██▏                   |  ETA: 1 days, 3:43:48 (10.21  m/it)[K
+        epoch: 87[K
+   train_loss: 3104.4365[K
+     val_loss: 12329.83512[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  10%|██▎                   |  ETA: 1 days, 3:32:49 (10.20  m/it)[K
+        epoch: 88[K
+   train_loss: 3083.94084[K
+     val_loss: 12255.62399[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  11%|██▍                   |  ETA: 1 days, 3:22:04 (10.20  m/it)[K
+        epoch: 89[K
+   train_loss: 3087.40435[K
+     val_loss: 12207.17587[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  11%|██▌                   |  ETA: 1 days, 3:11:10 (10.19  m/it)[K
+        epoch: 90[K
+   train_loss: 3048.63712[K
+     val_loss: 12178.81728[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  12%|██▋                   |  ETA: 1 days, 3:00:26 (10.19  m/it)[K
+        epoch: 91[K
+   train_loss: 3039.69837[K
+     val_loss: 12121.44104[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  12%|██▊                   |  ETA: 1 days, 2:49:46 (10.19  m/it)[K
+        epoch: 92[K
+   train_loss: 2995.96054[K
+     val_loss: 12063.91746[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  13%|██▊                   |  ETA: 1 days, 2:39:11 (10.19  m/it)[K
+        epoch: 93[K
+   train_loss: 2996.14881[K
+     val_loss: 12035.34098[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  13%|██▉                   |  ETA: 1 days, 2:28:40 (10.18  m/it)[K
+        epoch: 94[K
+   train_loss: 2954.65136[K
+     val_loss: 11988.69[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  14%|███                   |  ETA: 1 days, 2:17:53 (10.18  m/it)[K
+        epoch: 95[K
+   train_loss: 2928.54021[K
+     val_loss: 11976.19518[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  14%|███▏                  |  ETA: 1 days, 2:07:06 (10.18  m/it)[K
+        epoch: 96[K
+   train_loss: 2906.02431[K
+     val_loss: 11899.56237[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  15%|███▎                  |  ETA: 1 days, 1:56:33 (10.17  m/it)[K
+        epoch: 97[K
+   train_loss: 2894.13294[K
+     val_loss: 11867.48766[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  16%|███▍                  |  ETA: 1 days, 1:46:02 (10.17  m/it)[K
+        epoch: 98[K
+   train_loss: 3324.82182[K
+     val_loss: 11842.48146[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  16%|███▌                  |  ETA: 1 days, 1:35:32 (10.17  m/it)[K
+        epoch: 99[K
+   train_loss: 2851.29056[K
+     val_loss: 11793.51588[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  17%|███▋                  |  ETA: 1 days, 1:25:06 (10.17  m/it)[K
+        epoch: 100[K
+   train_loss: 2819.42679[K
+     val_loss: 11752.94666[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  17%|███▊                  |  ETA: 1 days, 1:14:47 (10.17  m/it)[K
+        epoch: 101[K
+   train_loss: 2799.57577[K
+     val_loss: 11702.68707[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  18%|███▉                  |  ETA: 1 days, 1:04:22 (10.16  m/it)[K
+        epoch: 102[K
+   train_loss: 2781.10376[K
+     val_loss: 11681.96332[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  18%|████                  |  ETA: 1 days, 0:53:57 (10.16  m/it)[K
+        epoch: 103[K
+   train_loss: 2760.4684[K
+     val_loss: 11638.91744[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  19%|████▏                 |  ETA: 1 days, 0:43:45 (10.16  m/it)[K
+        epoch: 104[K
+   train_loss: 2738.91688[K
+     val_loss: 11604.00158[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  19%|████▎                 |  ETA: 1 days, 0:33:27 (10.16  m/it)[K
+        epoch: 105[K
+   train_loss: 2722.09679[K
+     val_loss: 11538.6845[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  20%|████▍                 |  ETA: 1 days, 0:23:16 (10.16  m/it)[K
+        epoch: 106[K
+   train_loss: 2721.72558[K
+     val_loss: 11484.27257[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  21%|████▌                 |  ETA: 1 days, 0:13:01 (10.16  m/it)[K
+        epoch: 107[K
+   train_loss: 2827.62898[K
+     val_loss: 11455.65178[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  21%|████▋                 |  ETA: 1 days, 0:02:55 (10.16  m/it)[K
+        epoch: 108[K
+   train_loss: 2676.83601[K
+     val_loss: 11556.55953[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  22%|████▊                 |  ETA: 23:52:53 (10.16  m/it)[K
+        epoch: 109[K
+   train_loss: 2711.16721[K
+     val_loss: 11391.46502[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  22%|████▉                 |  ETA: 23:42:44 (10.16  m/it)[K
+        epoch: 110[K
+   train_loss: 2640.01168[K
+     val_loss: 11361.37954[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  23%|█████                 |  ETA: 23:32:30 (10.16  m/it)[K
+        epoch: 111[K
+   train_loss: 2616.50661[K
+     val_loss: 11343.32303[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  23%|█████▏                |  ETA: 23:22:13 (10.16  m/it)[K
+        epoch: 112[K
+   train_loss: 2597.10226[K
+     val_loss: 11330.01691[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  24%|█████▎                |  ETA: 23:11:59 (10.16  m/it)[K
+        epoch: 113[K
+   train_loss: 2577.8391[K
+     val_loss: 11255.83996[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  24%|█████▍                |  ETA: 23:01:45 (10.16  m/it)[K
+        epoch: 114[K
+   train_loss: 2564.4488[K
+     val_loss: 11248.57678[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  25%|█████▌                |  ETA: 22:51:40 (10.16  m/it)[K
+        epoch: 115[K
+   train_loss: 2955.13311[K
+     val_loss: 11202.3667[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  26%|█████▋                |  ETA: 22:41:31 (10.16  m/it)[K
+        epoch: 116[K
+   train_loss: 2520.69382[K
+     val_loss: 11167.05503[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  26%|█████▊                |  ETA: 22:31:23 (10.16  m/it)[K
+        epoch: 117[K
+   train_loss: 2504.10688[K
+     val_loss: 11128.7483[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  27%|█████▉                |  ETA: 22:21:11 (10.16  m/it)[K
+        epoch: 118[K
+   train_loss: 2487.85815[K
+     val_loss: 11086.40999[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  27%|██████                |  ETA: 22:10:54 (10.16  m/it)[K
+        epoch: 119[K
+   train_loss: 2475.22899[K
+     val_loss: 11061.84006[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  28%|██████▏               |  ETA: 22:00:51 (10.16  m/it)[K
+        epoch: 120[K
+   train_loss: 2457.53458[K
+     val_loss: 11060.26584[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  28%|██████▎               |  ETA: 21:50:47 (10.16  m/it)[K
+        epoch: 121[K
+   train_loss: 2438.70162[K
+     val_loss: 11019.15922[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  29%|██████▍               |  ETA: 21:40:40 (10.16  m/it)[K
+        epoch: 122[K
+   train_loss: 2422.38788[K
+     val_loss: 10996.76781[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  29%|██████▌               |  ETA: 21:30:28 (10.16  m/it)[K
+        epoch: 123[K
+   train_loss: 2407.99035[K
+     val_loss: 10922.88395[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  30%|██████▋               |  ETA: 21:20:22 (10.16  m/it)[K
+        epoch: 124[K
+   train_loss: 2401.46154[K
+     val_loss: 10909.61058[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  31%|██████▊               |  ETA: 21:10:09 (10.16  m/it)[K
+        epoch: 125[K
+   train_loss: 2376.80059[K
+     val_loss: 10874.944[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  31%|██████▉               |  ETA: 20:59:56 (10.16  m/it)[K
+        epoch: 126[K
+   train_loss: 2361.19729[K
+     val_loss: 10852.82076[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  32%|███████               |  ETA: 20:49:53 (10.16  m/it)[K
+        epoch: 127[K
+   train_loss: 2366.89136[K
+     val_loss: 10831.38345[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  32%|███████▏              |  ETA: 20:39:44 (10.16  m/it)[K
+        epoch: 128[K
+   train_loss: 2334.59883[K
+     val_loss: 10827.79137[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  33%|███████▎              |  ETA: 20:29:37 (10.16  m/it)[K
+        epoch: 129[K
+   train_loss: 2328.66432[K
+     val_loss: 10759.37196[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  33%|███████▍              |  ETA: 20:19:30 (10.16  m/it)[K
+        epoch: 130[K
+   train_loss: 2332.49221[K
+     val_loss: 10695.7667[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  34%|███████▌              |  ETA: 20:09:17 (10.16  m/it)[K
+        epoch: 131[K
+   train_loss: 2317.50664[K
+     val_loss: 10747.97801[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  34%|███████▋              |  ETA: 19:59:08 (10.16  m/it)[K
+        epoch: 132[K
+   train_loss: 2285.20527[K
+     val_loss: 10654.13157[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  35%|███████▊              |  ETA: 19:49:05 (10.16  m/it)[K
+        epoch: 133[K
+   train_loss: 2262.73115[K
+     val_loss: 10657.78576[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  36%|███████▉              |  ETA: 19:38:57 (10.16  m/it)[K
+        epoch: 134[K
+   train_loss: 2248.19314[K
+     val_loss: 10632.15023[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  36%|████████              |  ETA: 19:28:49 (10.16  m/it)[K
+        epoch: 135[K
+   train_loss: 2232.19911[K
+     val_loss: 10588.06703[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  37%|████████▏             |  ETA: 19:18:45 (10.16  m/it)[K
+        epoch: 136[K
+   train_loss: 2221.81211[K
+     val_loss: 10593.48753[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  37%|████████▎             |  ETA: 19:08:42 (10.17  m/it)[K
+        epoch: 137[K
+   train_loss: 2202.57115[K
+     val_loss: 10564.52705[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  38%|████████▎             |  ETA: 18:58:41 (10.17  m/it)[K
+        epoch: 138[K
+   train_loss: 2188.54062[K
+     val_loss: 10513.17575[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  38%|████████▍             |  ETA: 18:48:39 (10.17  m/it)[K
+        epoch: 139[K
+   train_loss: 2185.71815[K
+     val_loss: 10484.37253[K[A[A[A
+
+
+[K[A[K[A[K[ATraining epochs  39%|████████▌             |  ETA: 18:38:35 (10.17  m/it)[K
+        epoch: 140[K
+   train_loss: 2163.11039[K
+     val_loss: 10438.59953[K[A[A[A[2026-04-23T02:26:40.010] error: *** JOB 12354005 ON node1604 CANCELLED AT 2026-04-23T02:26:40 DUE TO TIME LIMIT ***

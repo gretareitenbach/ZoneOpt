@@ -1,0 +1,5 @@
+seq_id,split,entry_type,shot_within_horizon,rmse_xy,plot_path,gif_path,checkpoint_epoch
+501,test,Carried,false,12.197175887987965,visualizations/policy_gifs/seq_0501_comparison.png,visualizations/policy_gifs/seq_0501_comparison.gif,140
+770,test,Carried,true,12.957492623811607,visualizations/policy_gifs/seq_0770_comparison.png,visualizations/policy_gifs/seq_0770_comparison.gif,140
+229,test,Dumped,false,18.27085810272498,visualizations/policy_gifs/seq_0229_comparison.png,visualizations/policy_gifs/seq_0229_comparison.gif,140
+693,test,Carried,true,18.925626418522793,visualizations/policy_gifs/seq_0693_comparison.png,visualizations/policy_gifs/seq_0693_comparison.gif,140

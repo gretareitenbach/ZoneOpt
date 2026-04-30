@@ -1,0 +1,7 @@
+metric,value
+n_sequences,1296
+n_eligible_shot_sequences,247
+most_common_entry_type,Carried
+most_common_count,627
+eligible_count_for_most_common,193
+baseline_decision_validity,0.7813765182186235

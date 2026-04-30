@@ -10,6 +10,8 @@ ZoneOpt.jl is a Julia-based framework optimizing ice hockey zone entry strategie
 - `data/`: Raw event and tracking logs.
 - `presentation/`: Slides for project defense.
 
+- `notebooks/`: (now in `ZoneOpt/notebooks/`) Jupyter notebooks demonstrating data preprocessing, model training, and agentic optimization with ZoneOpt.jl.
+
 ## Quickstart
 
 ### 1. Preprocess Data
@@ -42,4 +44,15 @@ julia scripts/sensitivity_analysis.jl
 ```
 
 ## Documentation
+
 See `FINAL_REPORT.md` for methodology, architecture details, and results. Also refer to `IMPLEMENTATION_VALIDATION.md`.
+
+## Demonstration Notebooks
+
+Explore the following Jupyter notebooks in `ZoneOpt/notebooks/` for hands-on demonstrations:
+
+- **ZoneOpt_Data_Preprocessing.ipynb**: How to preprocess raw event/tracking data and inspect context vectors and trajectories.
+- **ZoneOpt_Model_Training.ipynb**: How to train the Neural ODE model, plot loss curves, and tune training parameters.
+- **ZoneOpt_Agentic_Optimization.ipynb**: How to load a trained model, simulate tactical strategies (carry/dump/pass), and visualize results and sensitivity analysis.
+
+These notebooks provide a practical introduction to the ZoneOpt.jl workflow and can be run step-by-step to reproduce the main results and analyses.
